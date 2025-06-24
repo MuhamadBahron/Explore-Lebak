@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Karang Bokor - Explore Alam Kabupaten Lebak, Banten</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header yang konsisten dengan halaman indeks -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-mountain"></i>
+                <h1>Explore Lebak</h1>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="indeks.html" class="nav-link"><i class="fas fa-home"></i> Beranda</a></li>
+                    <li><a href="indeks.html#destinasi" class="nav-link"><i class="fas fa-map-marked-alt"></i> Destinasi</a></li>
+                    <li><a href="indeks.html#tentang" class="nav-link"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                    <li><a href="indeks.html#budaya" class="nav-link"><i class="fas fa-landmark"></i> Budaya</a></li>
+                    <li><a href="indeks.html#kontak" class="nav-link"><i class="fas fa-envelope"></i> Kontak</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero khusus Karang Bokor -->
+    <section class="destination-hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/Pantai-Karang-Bokor.jpg');">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Pantai Karang Bokor</h1>
+                <p>Keindahan Karang Alami di Sawarna, Lebak</p>
+                <a href="#lokasi" class="btn-primary"><i class="fas fa-map-marker-alt"></i> Lihat Lokasi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Konten utama -->
+    <section class="destination-content">
+        <div class="container">
+            <article class="destination-article">
+                <!-- Gambar slider -->
+                <div class="image-slider">
+                    <img src="img/Pantai-Karang-Bokor.jpg" alt="Karang Bokor 1" class="image" />
+                    <img src="img/pantai-karang-bokor1.jpg" alt="Karang Bokor 2" class="image" />
+                    <img src="img/karangbokor2.jpg" alt="Karang Bokor 3" class="image" />
+                </div>
+
+                <!-- Deskripsi destinasi -->
+                <div class="article-section">
+                    <h2><i class="fas fa-info-circle"></i> Tentang Karang Bokor</h2>
+                    <p>Pantai Karang Bogor merupakan salah satu pantai yang wajib dikunjungi saat liburan ke Sawarna. Pantai ini menyuguhkan pemandangan laut yang menakjubkan. Diberi nama 'Karang Bokor' karena terdapat karang berukuran besar menyerupai Bokor (wadah yang cekung dan bertepi lebar). Karang ini terpisah dari daratan.</p>
+                    <p>Meski namanya 'Pantai Karang Bokor', namun wisatawan tidak diperkenankan untuk berenang, mengingat kondisi pantai yang dipenuhi bebebatuan karang dan ombak yang cukup besar. Lokasi Pantai Karang Bokor berada di antara Pantai Pulo Manuk dan Pantai Goa Langir. Jika dari arah Rangkasbitung, lokasinya setelah Pantai Pulo Manuk.</p>
+                </div>
+
+                <!-- Fasilitas -->
+                <div class="article-section">
+                    <h2><i class="fas fa-umbrella-beach"></i> Keindahan Karang Bokor</h2>
+                    <p>Objek utama dari Pantai Karang Bokor adalah pemandangan laut lepas dari atas tebing. Hempasan angin dan suara deburan ombak akan menemani wisatawan selama berada di tempat ini.</p>
+                    <p>Keindahan tempat ini juga didukung dengan fasilitas yang dibangun. Wisatawan bisa menikmati pemandangan sambil rebahan di tempat duduk yang disediakan. Selain itu, ada juga jalan kayu dan jembatan gantung yang bisa dilewati wisatawan. Posisinya di bawah tebing, dari sini wisatawan bisa melihat pemandangan yang cukup berbeda.</p>
+                </div>
+
+                <!-- Informasi tiket -->
+                <div class="article-section highlight-box">
+                    <h2><i class="fas fa-ticket-alt"></i> Tiket Masuk</h2>
+                    <p>Berbeda dengan Pantai Sawarna lainnya, harga tiket masuk ke Pantai Karang Bokor adalah Rp20.000 per orang belum termasuk biaya parkir jika kita masuk menggunakan kendaraan.</p>
+                    <p>Harga tiket masuk yang lebih mahal karena pantai ini dikelola oleh pihak swasta. Banyak fasilitas dibuat untuk kenyaman wisatawan, seperti:</p>
+                    <ul class="facility-list">
+                        <li><i class="fas fa-check"></i> Akses jalan yang memadai</li>
+                        <li><i class="fas fa-check"></i> Area parkir luas</li>
+                        <li><i class="fas fa-check"></i> Toilet bersih</li>
+                        <li><i class="fas fa-check"></i> Tempat istirahat</li>
+                        <li><i class="fas fa-check"></i> Jembatan gantung</li>
+                    </ul>
+                </div>
+
+                <!-- Lokasi -->
+                <div class="article-section" id="lokasi">
+                    <h2><i class="fas fa-map-marked-alt"></i> Lokasi</h2>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7920.684691097477!2d106.27135296785214!3d-6.979315762565027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4291dede1b5501%3A0x7bc0f9e64bace9a3!2sKarang%20Bokor%20Sawarna!5e0!3m2!1sid!2sid!4v1690279182511!5m2!1sid!2sid" 
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="location-info">
+                        <p><strong>Alamat:</strong> Desa Sawarna, Kecamatan Bayah, Kabupaten Lebak, Banten</p>
+                        <p><strong>Jam Buka:</strong> 08.00 - 18.00 WIB (Setiap Hari)</p>
+                    </div>
+                </div>
+
+                <!-- Tips -->
+                <div class="article-section tips-box">
+                    <h2><i class="fas fa-lightbulb"></i> Tips Berkunjung</h2>
+                    <ul class="tips-list">
+                        <li>Gunakan alas kaki yang nyaman untuk berjalan di area berbatu</li>
+                        <li>Bawa jaket karena angin pantai cukup kencang</li>
+                        <li>Waktu terbaik berkunjung pagi atau sore hari</li>
+                        <li>Bawa kamera untuk mengabadikan pemandangan spektakuler</li>
+                        <li>Patuhi semua peraturan dan larangan yang ada</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- Tombol kembali -->
+            <div class="back-button-container">
+                <a href="indeks.html#destinasi" class="btn-outline"><i class="fas fa-arrow-left"></i> Kembali ke Daftar Destinasi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer yang konsisten -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo">
+                        <i class="fas fa-mountain"></i>
+                        <h3>Explore Lebak</h3>
+                    </div>
+                    <p>Platform informasi wisata alam Kabupaten Lebak, Banten. Menyajikan destinasi terbaik dan budaya lokal.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="indeks.html">Beranda</a></li>
+                        <li><a href="indeks.html#destinasi">Destinasi</a></li>
+                        <li><a href="indeks.html#tentang">Tentang Kami</a></li>
+                        <li><a href="indeks.html#budaya">Budaya</a></li>
+                        <li><a href="indeks.html#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Berlangganan</h4>
+                    <p>Dapatkan informasi terbaru tentang wisata Lebak</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Alamat Email Anda">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Explore Lebak. Semua Hak Dilindungi.</p>
+                <div class="legal-links">
+                    <a href="#">Kebijakan Privasi</a>
+                    <a href="#">Syarat & Ketentuan</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tombol kembali ke atas -->
+    <a href="#" class="back-to-top" aria-label="Kembali ke atas">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
